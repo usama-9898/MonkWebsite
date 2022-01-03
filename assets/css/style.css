@@ -50,7 +50,7 @@
 
 .collage-image
 {
-  animation: fadeIn 3s ease-in both;
+  animation: fadeIn 1s ease-in both;
 }
 .grow
 {
@@ -212,4 +212,70 @@ h4 {
 .trust-text {
   font-family: DM Sans;
   font-style: normal;
+}
+.navbar-buttons
+{
+  float: left;
+}
+.top-animation
+{
+  text-align: center;
+  position: relative;
+}
+.small-images
+{
+  margin-top: -87px; 
+  margin-left: 37px; 
+  border-radius: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .navbar-buttons
+  {
+    display: none;
+  }
+  .left-content {
+    width: 100vw !important;
+    padding-left: 23px !important;
+  }
+  .top-animation {
+    display: none;
+  }
+  .header{
+    margin-top: 20% !important;
+    height: 70vh !important;
+  }
+  .collage-image {
+    display: none;
+  }
+  .small-images
+  {
+    margin-top: -87px; 
+    margin-left: 0px; 
+    border-radius: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 30%;
+  }
+  .logo_image{
+    width: 50%;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .navbar-buttons
+  {
+    /* display: none; */
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
 }
