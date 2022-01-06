@@ -1,0 +1,9 @@
+Font = Nuninto Sans
+
+Heading Weight = 800
+Heading Size = 50
+Heading Size Mobile = 26
+
+Paragrapgh Text Weight = 400/500
+Paragrapgh Size = 20
+Paragrapgh Size Mobile = 20

@@ -41,6 +41,22 @@
   margin-top: 2%;
 }
 
+.elementor-heading-title {
+  color: #4D4D4D;
+  font-family: "Nunito Sans",Sans-serif;
+  font-size: 26px;
+  font-weight: 800;
+}
+
+.elementor-4239
+{
+  color: #000;
+  font-family: "Nunito Sans",Sans-serif;
+  font-size: 40px;
+  font-weight: 800;
+  text-transform: capitalize;
+}
+
 .fade {
   margin: 50px;
   padding: 50px;
@@ -127,10 +143,6 @@
 .col-sm-2>span,
 .col-sm-2>p {
   display: inline-block;
-}
-.navbar
-{
-    border-bottom:.5px solid rgb(180, 180, 180);
 }
 
 @keyframes fadeIn {
@@ -228,6 +240,29 @@ h4 {
   margin-left: 37px; 
   border-radius: 50px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+flex-container::before {
+  content: "";
+}
+
+flex-container::after {
+  content: "";
+}
+
+/* non-essential decorative styles */
+flex-container {
+  padding: 5px 0;
+}
+flex-item {
+  height: 50px;
+  width: 173px;
+  font-size: larger;
+  font-family: inherit;
 }
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
