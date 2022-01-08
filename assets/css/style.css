@@ -49,6 +49,10 @@
   text-align: initial;
 }
 
+.collapse{
+margin-left: 40% !important;
+}
+
 .card-horizontal {
   display: flex;
   flex: 1 1 auto;
@@ -60,6 +64,7 @@
   font-size: 40px;
   font-weight: 800;
   text-transform: capitalize;
+  margin-top: 12% ;
 }
 
 .fade {
@@ -269,8 +274,121 @@ flex-item {
   font-size: larger;
   font-family: inherit;
 }
+
+.central-items
+{
+  padding: 0px 8% 0px 8%;
+}
+
+.small-cards
+{
+  padding:50px;
+  background-image:url('./assets/img/bg-image.png');
+  /* margin-top: 5%; */
+}
+
+.card-mobile
+{
+display: flex;
+}
+
+.number-images-mobile
+{
+  width: 18%;
+  height: 15%;
+}
+
+.number-images-mobile-special
+{
+  width: 18%;
+  height: 15%;
+}
+
+.footers
+{
+  background-color: #0A2D7B; 
+  padding: 100px; 
+  display: flex;
+}
+
+.center-button {
+  margin: 0;
+  position: absolute;
+  left: 50%;
+  top: 15%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.conatiner-center-button
+{
+  height: 70px;
+  position: relative;
+}
+
+.central-button
+{
+  background-color: #2D2E83; 
+  margin-top: 15%;
+  color: #ffffff;
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+
+  .number-images-mobile-special-four
+  {
+    height: 48% !important;
+  }
+
+  .image-to-hide
+  {
+    display: none;
+  }
+
+  .central-button
+  {
+    background-color: #2D2E83; 
+    margin-top: 25%;
+    color: #ffffff;
+    margin-bottom: 10%;
+  }
+
+  
+  .collapse
+  {
+    margin-left: 0 !important;
+  }
+
+  .footers
+  {
+    background-color: #0A2D7B; 
+    padding: 37px; 
+    display: flex;
+  }
+  .top-giph
+  {
+    display: none;
+  }
+
+  .number-images-mobile-special
+  {
+    width: 40%;
+    height: 40%;
+  }
+  .number-images-mobile
+  {
+    width: 40%;
+    height: 30%;
+  }
+  .card-mobile
+  {
+    display: inline !important;
+  }
+  .small-cards
+  {
+    margin-top: 0px !important;
+  }
   .navbar-buttons
   {
     display: none;
@@ -283,11 +401,12 @@ flex-item {
     display: none;
   }
   .header{
-    margin-top: 20% !important;
-    height: 70vh !important;
+    height: auto !important;
+    background-position-x: center !important  ;
   }
   .collage-image {
     display: none;
+    /* margin-top: 5%; */
   }
   .small-images
   {
@@ -299,6 +418,23 @@ flex-item {
   }
   .logo_image{
     width: 50%;
+  }
+  .para
+  {
+    font-size: 28px !important;
+  }
+
+  .central-items
+  {
+    padding: 0px 0px 0px 0px;
+  }
+  .for-mobile
+  {
+    padding: 22px !important; 
+  }
+  .elementor-4239
+  {
+    margin-top: 5%;
   }
 }
 
